@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <script>
+    // JavaScript code here
+    var themes = ['default', 'radical', 'merko', 'gruvbox', 'tokyonight', 'onedark', 'cobalt', 'synthwave', 'highcontrast', 'dracula'];
+
+    setInterval(function() {
+      var theme = themes[Math.floor(Math.random() * themes.length)];
+      document.getElementById('github-stats').src = 'https://github-readme-stats-garvit-exe.vercel.app/api?username=garvit-exe&theme=' + theme + '&hide_border=true&include_all_commits=true&count_private=true';
+      document.getElementById('top-languages').src = 'https://github-readme-stats-garvit-exe.vercel.app/api/top-langs/?username=garvit-exe&theme=' + theme + '&hide_border=true&include_all_commits=true&count_private=true&layout=compact';
+      document.getElementById('github-streak').src = 'https://github-readme-streak-stats.herokuapp.com?user=garvit-exe&theme=' + theme + '&date_format=j%20M%5B%20Y%5D&hide_border=true';
+    }, 60000); // 1 minute in milliseconds
+  </script>
+</svg>
