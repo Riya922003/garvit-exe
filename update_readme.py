@@ -1,6 +1,10 @@
 import random
 import re
 
+# Read the README file
+with open('README.md', 'r') as file:
+    readme_content = file.read()
+
 # Define the old and new image URLs
 old_image_url = 'https://github-readme-streak-stats.herokuapp.com?user=garvit-exe&theme=transparent&date_format=j%20M%5B%20Y%5D&hide_border=true'
 new_image_url = 'https://github-readme-streak-stats.herokuapp.com?user=garvit-exe&theme=react&date_format=j%20M%5B%20Y%5D&hide_border=true'
