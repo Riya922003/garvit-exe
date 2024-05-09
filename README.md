@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=garvit-exe&theme=transparent&date_format=j%20M%5B%20Y%5D&hide_border=true" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com?user=garvit-exe&theme=react&date_format=j%20M%5B%20Y%5D&hide_border=true" alt="GitHub Streak" />
       </td>
       <td align="center">
         <img src="https://github-profile-trophy.vercel.app/?username=garvit-exe&no-bg=true&no-frame=true&column=4" />
