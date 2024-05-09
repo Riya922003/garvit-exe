@@ -2,7 +2,7 @@ import random
 import re
 
 # List of available themes
-themes = ['default', 'radical', 'merko', 'gruvbox', 'tokyonight', 'onedark', 'cobalt', 'synthwave', 'highcontrast', 'dracula']
+themes = ['react']
 
 # Generate a random theme
 new_theme = random.choice(themes)
